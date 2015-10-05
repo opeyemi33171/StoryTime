@@ -1,0 +1,149 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.opeyemi.storytime.Activites.CharacterInfoActivity"
+    android:orientation="vertical">
+    <include android:id="@+id/app_bar" layout="@layout/app_bar" android:layout_height="wrap_content" android:layout_width="fill_parent"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Physical Appearence"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="5dp"
+    android:id="@+id/PhysicalHeader"
+    />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/physicalContainer">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Character description"
+            android:id="@+id/characterDescriptionLabel"
+            android:layout_marginTop="10dp"
+            />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Character age"
+            android:id="@+id/characterAgeLabel"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Character story of origin"
+            android:layout_marginTop="10dp"
+            android:id="@+id/characterStoryLabel"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Character Height"
+            android:layout_marginTop="10dp"
+            android:id="@+id/characterHeightLabel"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Race"
+            android:layout_marginTop="10dp"
+            android:id="@+id/characterRaceLabel"/>
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personality"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/personalityHeader"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/personalityContainer">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="openness"
+                android:layout_marginTop="10dp"
+                android:id="@+id/opennessLabel"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Conscientiousness"
+            android:id="@+id/conscientiousnessLabel"
+            android:layout_marginTop="10dp"
+            />
+    </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Extraversion"
+                android:layout_marginTop="10dp"
+                android:id="@+id/extraversionLabel"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Agreeableness"
+                android:layout_marginTop="10dp"
+                android:id="@+id/agreeablenessLabel"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Neuroticism"
+                android:layout_marginTop="10dp"
+                android:id="@+id/neuroticismLabel"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+</LinearLayout>
+</LinearLayout>
+</ScrollView>

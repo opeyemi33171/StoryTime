@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">StoryTime</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_character">CharacterActivity</string>
+    <string name="title_activity_character_info">CharacterInfoActivity</string>
+</resources>
